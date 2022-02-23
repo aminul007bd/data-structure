@@ -1,17 +1,15 @@
 package com.moshjava;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
 
-        QueueUsingStack queue = new QueueUsingStack();
+        PriorityQueue queue = new PriorityQueue();
 
-        queue.enqueue(10);
-        queue.enqueue(20);
-        queue.enqueue(30);
-        var first = queue.dequeue();
-        System.out.println(first);
+        queue.add(10);
+        queue.add(20);
+        queue.add(1);
+
+
+        System.out.println(queue);
     }
 }

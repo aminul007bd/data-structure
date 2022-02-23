@@ -4,9 +4,9 @@ public class Array {
     private int[] items;
     private int count;
 
-    public Array(int length) {
-        items = new int[length];
-    }
+//    public Array() {
+//        items = new int[length];
+//    }
 
     public void insert(int item) {
         // If the array is full, resize it
